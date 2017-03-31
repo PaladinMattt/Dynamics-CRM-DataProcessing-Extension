@@ -1,0 +1,8 @@
+c:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\bin\Debug\Microsoft.ReportingServices.Interfaces.dll
+c:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\obj\Debug\Dynamics CRM Data Processing Extension.csprojResolveAssemblyReference.cache
+C:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\bin\Debug\Dynamics.CRM.DataProcessing.Extension.dll
+C:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\bin\Debug\Dynamics.CRM.DataProcessing.Extension.pdb
+C:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\obj\Debug\Dynamics.CRM.DataProcessing.Extension.dll
+C:\Projects\Dynamics CRM Data Processing Extension\Dynamics CRM Data Processing Extension\obj\Debug\Dynamics.CRM.DataProcessing.Extension.pdb
