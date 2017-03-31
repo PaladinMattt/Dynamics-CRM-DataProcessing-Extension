@@ -32,18 +32,18 @@ and under the Data node add the line:
 <h3>Edit the file:</h3>
 <p>
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
-and add the following code group
- <CodeGroup
-    class="UnionCodeGroup"
-    version="1"
-    PermissionSetName="FullTrust"
-    Name="Dynamics365DataExtensionCodeGroup"
-    Description="Code group for custom data processing extension">	
-    <IMembershipCondition
-    class="UrlMembershipCondition"
-        version="1"
-        Url="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\Dynamics.CRM.DataProcessing.Extension.dll" />
-    </CodeGroup>
+and add the following code group </br>
+ &lt;CodeGroup</br>
+    class="UnionCodeGroup"</br>
+    version="1"</br>
+    PermissionSetName="FullTrust"</br>
+    Name="Dynamics365DataExtensionCodeGroup"</br>
+    Description="Code group for custom data processing extension"&gt;</br>
+    &lt;IMembershipCondition</br>
+    class="UrlMembershipCondition"</br>
+        version="1"</br>
+        Url="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\Dynamics.CRM.DataProcessing.Extension.dll" /&gt;</br>
+    &lt;/CodeGroup&gt;
 </p>
 
 </body>
