@@ -46,5 +46,19 @@ and add the following code group </br>
     &lt;/CodeGroup&gt;
 </p>
 
+
+<h1> Edits that need made to the .rdl file if you want to import it into CRM </h1>
+<p> I have included 2 sample reports, one with Microsofts Data Provider (Report 2012.rdl)
+   and one with mine (Report 2015.rdl) to see the differences.
+<p>
+<ul>
+  <li>Remove the Attribute <i>MustUnderstand="df"</i> and <i>xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily"</i> from the Report Node</li>
+  <li>In the <i>Report</i> node, change the <i>xmlns</i> attribute to <i>http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition</i></li>
+  <li>Remove the node <i><df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily></i></li>
+  <li>Change the DataProvider from <i>Dynamics 365 Data Extension (Wont Work in CRM...)</i> to <i>MSCRMFETCH</i></li>
+  <li>Remove the nodes <i>ReportSections</i> and <i>ReportSection</i> leaving the <i>Body</i> and all child nodes.</li>
+  <li>Remove the nodes <i>ReportParametersLayout</i> and all child nodes. 
+</ul>
+<p> Now it should import into CRM.</p>
 </body>
 </html>
