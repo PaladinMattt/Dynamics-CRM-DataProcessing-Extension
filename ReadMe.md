@@ -54,7 +54,7 @@ and add the following code group </br>
 <ul>
   <li>Remove the Attribute <i>MustUnderstand="df"</i> and <i>xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily"</i> from the Report Node</li>
   <li>In the <i>Report</i> node, change the <i>xmlns</i> attribute to <i>http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition</i></li>
-  <li>Remove the node <i><df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily></i></li>
+  <li>Remove the node <i>&lt;df:DefaultFontFamily&gt;Segoe UI&lt;/df:DefaultFontFamily&gt;</i></li>
   <li>Change the DataProvider from <i>Dynamics 365 Data Extension (Wont Work in CRM...)</i> to <i>MSCRMFETCH</i></li>
   <li>Remove the nodes <i>ReportSections</i> and <i>ReportSection</i> leaving the <i>Body</i> and all child nodes.</li>
   <li>Remove the nodes <i>ReportParametersLayout</i> and all child nodes. 
