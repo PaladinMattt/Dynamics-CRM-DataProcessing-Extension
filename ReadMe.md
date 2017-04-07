@@ -49,7 +49,8 @@ and add the following code group </br>
 
 <h1> Edits that need made to the .rdl file if you want to import it into CRM </h1>
 <p> I have included 2 sample reports, one with Microsofts Data Provider (Report 2012.rdl)
-   and one with mine (Report 2015.rdl) to see the differences.
+   and one with mine (Report 2015.rdl) to see the differences. For ease of use, i have also included an edited 2015 file,
+   and a pdf of the diff.
 <p>
 <ul>
   <li>Remove the Attribute <i>MustUnderstand="df"</i> and <i>xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily"</i> from the Report Node</li>
