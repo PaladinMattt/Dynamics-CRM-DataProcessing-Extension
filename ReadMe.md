@@ -25,7 +25,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblie
 <p>
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\RSReportDesigner.config
 and under the Data node add the line:
-<Extension Name="Dynamics 365 Data Extension" Type="Dynamics.CRM.DataProcessing.Extension.Dynamics_CRM_Connection,Dynamics.CRM.DataProcessing.Extension"/>
+&lt;Extension Name="Dynamics 365 Data Extension" Type="Dynamics.CRM.DataProcessing.Extension.Dynamics_CRM_Connection,Dynamics.CRM.DataProcessing.Extension"/&gt;
 <p>
 
 
